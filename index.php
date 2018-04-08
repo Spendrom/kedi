@@ -30,9 +30,7 @@
             <input id="username-login" type="text" name="mail" pattern=".{3,}"   required title="Düzgün bir değer girin." maxlength="65">
           </div>
             <button id="logIn" class="login" type="submit">Arama Yap</button>
-            
-            <?php echo count(file("datax.txt")); ?> arama yapıldı.
-        </form>
+                    </form>
       </div>
     </div>
   </div>
